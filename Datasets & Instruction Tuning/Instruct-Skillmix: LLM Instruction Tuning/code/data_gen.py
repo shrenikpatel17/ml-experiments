@@ -24,7 +24,7 @@ def select_random_parameters() -> Tuple[List[str], str]:
 
 def generate_instruction(skills: List[str], query_type: str) -> str:
     try:
-        client = OpenAI(api_key="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")
+        client = OpenAI(api_key="API KEY")
         
         first_prompt = f"""I am creating a dataset of engaging human-AI interactions that demonstrate the
                     capabilities and value of AI models across diverse skills. Please help me generate
